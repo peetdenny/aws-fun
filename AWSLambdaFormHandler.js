@@ -1,6 +1,6 @@
 var aws = require('aws-sdk');
 var ses = new aws.SES({
-   accessKeyId: 'AS1fIdT1peMyR34lAcc3sk3y',
+   accessKeyId: 'AS1fIdT1peMyR34lAcc3sk3y',  // never check in your real credentials
    secretAccesskey: '9mYJz/Ws1artibartf4rstyh :)',
    region: 'eu-west-1' 
 });
